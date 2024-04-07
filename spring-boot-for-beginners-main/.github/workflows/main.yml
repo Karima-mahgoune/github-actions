@@ -27,4 +27,3 @@ jobs:
           mvn clean
           mvn -B package --file pom.xml
      
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/spring-boot-for-beginners:today
